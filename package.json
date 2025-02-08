@@ -1,0 +1,22 @@
+{
+  "name": "WVC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kill 1 && node index.js",
+    "rebuild": "npm rebuild && kill 1 && node index.js",
+    "cache": "npm cache clean --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-anti-spam": "^2.4.1",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "uptime-robot": "^1.3.0"
+  }
+}
